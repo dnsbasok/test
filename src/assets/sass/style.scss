@@ -1,0 +1,14 @@
+@import "vars";
+@import "mixins";
+
+
+/* Default styles */
+body {
+    margin: $size;
+    background-color: $black;
+}
+
+/* Blocks */
+@import "./blocks/card.scss"
+
+/* Vendor libs */
